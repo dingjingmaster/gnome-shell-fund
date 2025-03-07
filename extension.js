@@ -46,7 +46,7 @@ class Indicator extends PanelMenu.Button {
 export default class IndicatorExampleExtension extends Extension {
     enable() {
         this._indicator = new Indicator();
-        Main.panel.addToStatusArea(this.uuid, this._indicator);
+        Main.panel.addToStatusArea(this.uuid, this._indicator, 1, 'right');
     }
 
     disable() {

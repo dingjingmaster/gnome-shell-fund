@@ -1,0 +1,8 @@
+{
+  "name": "fund",
+  "description": "Fund",
+  "uuid": "gnome-shell-fund@dingjingmaster",
+  "shell-version": [
+    "46"
+  ]
+}
